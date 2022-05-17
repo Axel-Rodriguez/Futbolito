@@ -32,12 +32,24 @@ public class Arbitro : MonoBehaviour
                 blueGoals++;
                 Debug.Log("Blue team scores. Score: red " + redGoals + " - " + blueGoals + " blue");
                 ballRed();
+                if (blueGoals >= 5)
+                {
+                    Debug.Log("Blue team wins!");
+                    //Application.Quit();
+                    UnityEditor.EditorApplication.isPlaying = false;
+                }
             }
             else if (collisionPosition[0] < -13f)
             {
                 redGoals++;
                 Debug.Log("Red team scores. Score: red " + redGoals + " - " + blueGoals +" blue");
                 ballBlue();
+                if(redGoals >= 5)
+                {
+                    Debug.Log("Red team wins!");
+                    //Application.Quit();
+                    UnityEditor.EditorApplication.isPlaying = false;
+                }
             }
             ball.gameObject.GetComponent<SphereCollider>().enabled = true;
         }
