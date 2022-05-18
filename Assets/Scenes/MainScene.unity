@@ -148,6 +148,38 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1481927977457070500, guid: 459b594e06d95974784d870def534cc9, type: 3}
+      propertyPath: m_BehaviorName
+      value: MediocampoR
+      objectReference: {fileID: 0}
+    - target: {fileID: 1481927977457070500, guid: 459b594e06d95974784d870def534cc9, type: 3}
+      propertyPath: m_InferenceDevice
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1481927977457070500, guid: 459b594e06d95974784d870def534cc9, type: 3}
+      propertyPath: m_BrainParameters.VectorActionSpaceType
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1481927977457070500, guid: 459b594e06d95974784d870def534cc9, type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1481927977457070500, guid: 459b594e06d95974784d870def534cc9, type: 3}
+      propertyPath: m_BrainParameters.VectorActionSize.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1481927977457070500, guid: 459b594e06d95974784d870def534cc9, type: 3}
+      propertyPath: m_BrainParameters.VectorActionSize.Array.data[0]
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1481927977457070500, guid: 459b594e06d95974784d870def534cc9, type: 3}
+      propertyPath: m_BrainParameters.m_ActionSpec.BranchSizes.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1481927977457070500, guid: 459b594e06d95974784d870def534cc9, type: 3}
+      propertyPath: m_BrainParameters.m_ActionSpec.m_NumContinuousActions
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5676570518246170788, guid: 459b594e06d95974784d870def534cc9, type: 3}
       propertyPath: m_IsTrigger
       value: 1
@@ -187,6 +219,26 @@ PrefabInstance:
     - target: {fileID: 5676570518337183852, guid: 459b594e06d95974784d870def534cc9, type: 3}
       propertyPath: m_IsTrigger
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5676570518402192072, guid: 459b594e06d95974784d870def534cc9, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5676570518402192072, guid: 459b594e06d95974784d870def534cc9, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5676570518402192072, guid: 459b594e06d95974784d870def534cc9, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5676570518402192072, guid: 459b594e06d95974784d870def534cc9, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5676570518402192072, guid: 459b594e06d95974784d870def534cc9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5676570518402192079, guid: 459b594e06d95974784d870def534cc9, type: 3}
       propertyPath: m_UseGravity
@@ -280,6 +332,26 @@ PrefabInstance:
       propertyPath: m_UseGravity
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5676570519281496799, guid: 459b594e06d95974784d870def534cc9, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5676570519281496799, guid: 459b594e06d95974784d870def534cc9, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5676570519281496799, guid: 459b594e06d95974784d870def534cc9, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5676570519281496799, guid: 459b594e06d95974784d870def534cc9, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5676570519281496799, guid: 459b594e06d95974784d870def534cc9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5676570519358885804, guid: 459b594e06d95974784d870def534cc9, type: 3}
       propertyPath: m_IsTrigger
       value: 1
@@ -298,6 +370,26 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5676570519568083204, guid: 459b594e06d95974784d870def534cc9, type: 3}
       propertyPath: m_UseGravity
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5676570519568083205, guid: 459b594e06d95974784d870def534cc9, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5676570519568083205, guid: 459b594e06d95974784d870def534cc9, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5676570519568083205, guid: 459b594e06d95974784d870def534cc9, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5676570519568083205, guid: 459b594e06d95974784d870def534cc9, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5676570519568083205, guid: 459b594e06d95974784d870def534cc9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5676570519601491804, guid: 459b594e06d95974784d870def534cc9, type: 3}
@@ -360,6 +452,26 @@ PrefabInstance:
       propertyPath: m_UseGravity
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5676570520114550458, guid: 459b594e06d95974784d870def534cc9, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5676570520114550458, guid: 459b594e06d95974784d870def534cc9, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5676570520114550458, guid: 459b594e06d95974784d870def534cc9, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5676570520114550458, guid: 459b594e06d95974784d870def534cc9, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5676570520114550458, guid: 459b594e06d95974784d870def534cc9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5676570520202079773, guid: 459b594e06d95974784d870def534cc9, type: 3}
       propertyPath: m_Size.x
       value: 1.4
@@ -371,6 +483,22 @@ PrefabInstance:
     - target: {fileID: 5676570520202079773, guid: 459b594e06d95974784d870def534cc9, type: 3}
       propertyPath: m_Size.z
       value: 1.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5676570520240792677, guid: 459b594e06d95974784d870def534cc9, type: 3}
+      propertyPath: m_Size.x
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5676570520240792677, guid: 459b594e06d95974784d870def534cc9, type: 3}
+      propertyPath: m_Size.z
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 5676570520240792678, guid: 459b594e06d95974784d870def534cc9, type: 3}
+      propertyPath: m_Size.x
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5676570520240792678, guid: 459b594e06d95974784d870def534cc9, type: 3}
+      propertyPath: m_Size.z
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 5676570520303055537, guid: 459b594e06d95974784d870def534cc9, type: 3}
       propertyPath: m_LocalPosition.z
@@ -537,25 +665,7 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 5676570518267053534, guid: 459b594e06d95974784d870def534cc9, type: 3}
   m_PrefabInstance: {fileID: 63329754}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &357496433
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 357496431}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cc3ca5d80509ff94cb97d584e2a4b36b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  agentParameters:
-    maxStep: 0
-  hasUpgradedFromAgentParameters: 1
-  MaxStep: 0
-  maxAngVel: 5
-  ball: {fileID: 1681645840}
---- !u!114 &357496435
+--- !u!114 &357496432
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -569,6 +679,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DecisionPeriod: 5
   TakeActionsBetweenDecisions: 1
+--- !u!114 &357496433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 357496431}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e1cacaa2deb3344f8c8c90d80bf13fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  agentParameters:
+    maxStep: 0
+  hasUpgradedFromAgentParameters: 1
+  MaxStep: 0
+  maxAngVel: 5
+  ball: {fileID: 1681645840}
 --- !u!1 &582003985 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5676570519440916975, guid: 459b594e06d95974784d870def534cc9, type: 3}
@@ -592,7 +720,7 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 5676570519371177129, guid: 459b594e06d95974784d870def534cc9, type: 3}
   m_PrefabInstance: {fileID: 63329754}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &664547373
+--- !u!114 &664547371
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -606,7 +734,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DecisionPeriod: 5
   TakeActionsBetweenDecisions: 1
---- !u!114 &664547374
+--- !u!114 &664547372
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -615,7 +743,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 664547370}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cc3ca5d80509ff94cb97d584e2a4b36b, type: 3}
+  m_Script: {fileID: 11500000, guid: 2075096132fbce24b8a7a7be7d230776, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   agentParameters:
@@ -646,10 +774,10 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 1
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 5022602860645237092, guid: 36d30d1be3163b84eaaf3549c4e4ddea, type: 3}
+  m_Model: {fileID: 0}
   m_InferenceDevice: 1
   m_BehaviorType: 0
-  m_BehaviorName: TeamR
+  m_BehaviorName: PorteroR
   TeamId: 0
   m_UseChildSensors: 1
   m_UseChildActuators: 1
@@ -770,7 +898,7 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 5676570518402192073, guid: 459b594e06d95974784d870def534cc9, type: 3}
   m_PrefabInstance: {fileID: 63329754}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &878521345
+--- !u!114 &878521343
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -784,7 +912,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DecisionPeriod: 5
   TakeActionsBetweenDecisions: 1
---- !u!114 &878521346
+--- !u!114 &878521344
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -793,7 +921,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 878521342}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cc3ca5d80509ff94cb97d584e2a4b36b, type: 3}
+  m_Script: {fileID: 11500000, guid: 6ccfe32164ec8e84f9a39122719f2aff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   agentParameters:
@@ -824,10 +952,10 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 1
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 5022602860645237092, guid: 36d30d1be3163b84eaaf3549c4e4ddea, type: 3}
+  m_Model: {fileID: 0}
   m_InferenceDevice: 1
   m_BehaviorType: 0
-  m_BehaviorName: TeamR
+  m_BehaviorName: DelanteraR
   TeamId: 0
   m_UseChildSensors: 1
   m_UseChildActuators: 1
@@ -943,7 +1071,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1057207593}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bae7b7f638d40c547bba6aaad25bbeb2, type: 3}
+  m_Script: {fileID: 11500000, guid: 6a6ae58774345e2469bd848143d1922e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   agentParameters:
@@ -974,10 +1102,10 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 1
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 5022602860645237092, guid: c64d0bed2ebba934aa5b6ee0fed27593, type: 3}
+  m_Model: {fileID: 0}
   m_InferenceDevice: 1
   m_BehaviorType: 0
-  m_BehaviorName: TeamB
+  m_BehaviorName: DefensaB
   TeamId: 1
   m_UseChildSensors: 1
   m_UseChildActuators: 1
@@ -1106,7 +1234,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1409011025}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bae7b7f638d40c547bba6aaad25bbeb2, type: 3}
+  m_Script: {fileID: 11500000, guid: 209a3759e3fb9c54aac01a029be26f8f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   agentParameters:
@@ -1137,10 +1265,10 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 1
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 5022602860645237092, guid: c64d0bed2ebba934aa5b6ee0fed27593, type: 3}
+  m_Model: {fileID: 0}
   m_InferenceDevice: 1
   m_BehaviorType: 0
-  m_BehaviorName: TeamB
+  m_BehaviorName: PorteroB
   TeamId: 1
   m_UseChildSensors: 1
   m_UseChildActuators: 1
@@ -1168,7 +1296,7 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 5676570518860428283, guid: 459b594e06d95974784d870def534cc9, type: 3}
   m_PrefabInstance: {fileID: 63329754}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1440535525
+--- !u!114 &1440535523
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1182,7 +1310,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DecisionPeriod: 5
   TakeActionsBetweenDecisions: 1
---- !u!114 &1440535526
+--- !u!114 &1440535524
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1191,7 +1319,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1440535522}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cc3ca5d80509ff94cb97d584e2a4b36b, type: 3}
+  m_Script: {fileID: 11500000, guid: d41bc54f15b0cf747b3f4ec492b2a70b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   agentParameters:
@@ -1222,10 +1350,10 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 1
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 5022602860645237092, guid: 36d30d1be3163b84eaaf3549c4e4ddea, type: 3}
+  m_Model: {fileID: 0}
   m_InferenceDevice: 1
   m_BehaviorType: 0
-  m_BehaviorName: TeamR
+  m_BehaviorName: DefensaR
   TeamId: 0
   m_UseChildSensors: 1
   m_UseChildActuators: 1
@@ -1258,7 +1386,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1509600205}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bae7b7f638d40c547bba6aaad25bbeb2, type: 3}
+  m_Script: {fileID: 11500000, guid: bfa9fd9a14ed6664d9ea949cf3da2e50, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   agentParameters:
@@ -1289,10 +1417,10 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 1
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 5022602860645237092, guid: c64d0bed2ebba934aa5b6ee0fed27593, type: 3}
+  m_Model: {fileID: 0}
   m_InferenceDevice: 1
   m_BehaviorType: 0
-  m_BehaviorName: TeamB
+  m_BehaviorName: MediocampoB
   TeamId: 1
   m_UseChildSensors: 1
   m_UseChildActuators: 1
@@ -1422,7 +1550,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1890233400}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bae7b7f638d40c547bba6aaad25bbeb2, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b4a53730081acc4a8a39b3038449dc8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   agentParameters:
@@ -1453,10 +1581,10 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 1
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 5022602860645237092, guid: c64d0bed2ebba934aa5b6ee0fed27593, type: 3}
+  m_Model: {fileID: 0}
   m_InferenceDevice: 1
   m_BehaviorType: 0
-  m_BehaviorName: TeamB
+  m_BehaviorName: DelanteraB
   TeamId: 1
   m_UseChildSensors: 1
   m_UseChildActuators: 1
